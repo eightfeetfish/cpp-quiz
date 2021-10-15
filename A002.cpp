@@ -1,15 +1,15 @@
 /*
-¡¾Á½ÊýÖ®ºÍ¡¿
-ÊäÈë
-  ÊäÈëÁ½¸öÕûÊýa, b¡£
+ã€ä¸¤æ•°ä¹‹å’Œã€‘
+è¾“å…¥
+  è¾“å…¥ä¸¤ä¸ªæ•´æ•°a, bã€‚
 
-Êä³ö
-  Êä³öa bÏà¼ÓµÄºÍÊý¡£
+è¾“å‡º
+  è¾“å‡ºa bç›¸åŠ çš„å’Œæ•°ã€‚
 
-Ê¾Àý
-  ÊäÈë£º
+ç¤ºä¾‹
+  è¾“å…¥ï¼š
 	5 3
-  Êä³ö£º
+  è¾“å‡ºï¼š
 	8
 */
 
@@ -18,9 +18,15 @@
 #include <iostream>
 
 using namespace std;
-
 int main()
 {
-	/*ÔÚ´Ë´¦Ìí¼ÓÄãµÄ´úÂë*/
+	/*åœ¨æ­¤å¤„æ·»åŠ ä½ çš„ä»£ç */
+	cout<<"enter intenge: ";
+	int x,y;
+	cin>>x;
+	cin>>y;
+	int c;
+	c=x+y;
+	cout<<c<<endl;
 	return 0;
 }
